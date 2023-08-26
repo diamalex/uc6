@@ -43,6 +43,7 @@ def lambda_handler(event, context):
 
     save_metrics(uc6, log, data)
 
+
 if __name__ == '__main__':
 
     lambda_handler("","")
